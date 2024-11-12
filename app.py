@@ -498,37 +498,6 @@ def view():
     fig_json = to_json(fig)
     
     return render_template("view_data.html", fig_json=fig_json)
-            
-            
-@app.route("/test", methods=["GET"])
-@login_required
-def test():
-    users = []
-    
-    all_users = db.execute("SELECT * FROM users ORDER BY first_name ASC")
-    all_sites = db.execute("SELECT * FROM sites")
-    i = 1
-    for user in all_users:
-        sites= []
-        for site in all_sites:
-            if site["parent_id"] == user["id"]:
-                sites.append(site["title"])
-                
-        person= {
-            "first_name": user["first_name"],
-            "last_name": user["last_name"],
-            "username": user["username"],
-            "role": user["role"],
-            "email": user["email"], 
-            "sites": sites, 
-            "id": user["id"],
-            "safe_id": i
-        }
-
-        users.append(person)
-        i+=1
-
-    return render_template("manage_users_new.html", users=users, all_sites=all_sites)
 
 
 @app.route("/silence_alarm", methods=["GET", "POST"])
