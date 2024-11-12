@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Manage Users
+{% endblock %}
+
+{% block main %}
+<script src= "https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div id="plot"></div>
+<script>
+    var fig = JSON.parse('{{ fig_json | safe }}');
+    Plotly.react('plot', fig.data, fig.layout);
+</script>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}Verify{% endblock %}
+
+{% block main %}
+    <h2>A code has been sent to your email. Please enter the code below.</h2>
+    <form action="/verify" method="post">
+        <div class="form-group">
+            <label for="username">Code</label>
+            <input class="form-control" type="text" name="code" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button> 
+    </form>
+
+{% endblock %}
+

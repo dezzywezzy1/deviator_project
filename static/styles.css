@@ -1,0 +1,391 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.form-group
+{
+    width: max-content/2;
+    margin-bottom: auto;
+}
+
+input.form-control
+{
+    width: auto;
+}
+
+form 
+{
+    margin-left: 4rem;
+}
+
+.forgot-pass 
+{
+    margin-left: 4rem;
+}
+
+
+#siteTable, #assignUsersTable
+{
+    
+    
+    width: 75%;
+    max-width: 50rem;
+    min-width: 500px;
+    border-radius: 20px;
+    background-color: rgba(149, 148, 148, 0.119);
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+
+
+#siteTable td, #assignUsersTable td
+{
+
+    padding:  7px;
+    border-top: 1px solid rgba(0, 0, 0, 0.361);
+    text-align: center;  
+    border-width: auto;
+    column-span: 5;
+
+}
+
+#siteTable th, #assignUsersTable th
+{
+
+    padding:  7px;
+    border-bottom: 2px solid black;
+    text-align: center; 
+
+}
+
+.hidden
+{
+    display: none;
+}
+
+
+#dealer_list, .assignSiteDropdown {
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+    width: auto;
+
+    
+}
+
+#dealer_list:hover, .assignSiteDropdown:hover {
+    box-shadow: 0px 0px 1.5px 0.7px rgb(28, 28, 28);
+}
+
+
+.tableName {
+    height: 50px;
+    font-size: x-large;
+    color: white;
+    background-color: #609df1;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.tableHeaders {
+    height: 42px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.nav-item {
+
+    border-radius: 3.5px;
+    margin: 20px;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color:#3f75c09d;
+}
+
+nav {
+    background-color:  #609df1;
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white
+}
+
+.assignSiteDropdown option{
+    text-align: left;
+    display: flexbox;
+}
+
+#assignUsersDiv, #siteTableDiv {
+    display: flex;
+    flex: column;
+}
+
+
+.bi {
+    font-size: 1.2rem;
+    color: #609df1;
+    border-radius: 12%;
+}
+
+.newButtons {
+    border: none;
+    min-width: 0%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.colSix {
+    justify-content: center;
+    text-align: center;
+}
+
+.clickable-row {
+    height: 4rem;
+    border-top: 1px solid rgba(211, 211, 211, 0.564);
+}
+
+
+.manageUsersDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.466);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.manageUsersTable {
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.619);
+    font-size: larger;
+    border-radius: 15px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    max-width: 1920px;
+    min-width: fit-content;
+    
+
+}
+
+.manageUsersHeader {
+    background-color:rgb(202, 202, 202);
+    height: 3rem;
+}
+
+.initials {
+    border: solid 1px rgb(164, 164, 164);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding-top: 6px;
+    background-color: #609df1;
+    color: white;
+    font-size:  medium;
+    
+}
+
+.circle {
+    width: 25px;
+    padding-left: 15px;
+    padding-top: 12px;
+    
+    
+}
+
+.colOne {
+    text-align: left;
+    width: 15rem;
+    padding-left: 30px;
+    
+}
+
+.collapsible-row {
+    display: none;
+    height: fit-content;
+    top: 0px;
+
+
+}
+
+
+
+.site-div {
+    display: flex;
+    padding-bottom: 25px;
+    padding-left: 15%;
+    align-items: center;
+}
+
+
+.label {
+    flex: 1;
+    margin: 0;
+    padding-right: 15px;
+    text-align: right;
+
+}
+
+.siteName {
+    display: inline-block;
+    margin: 0;
+    padding-right: 15px;
+    width: 125px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10%;
+    height: 37.34px;  
+    line-height: 35px;
+    text-align: left;
+
+}
+
+.siteNameDropdown{
+    flex: 1;
+    margin: 0;
+    padding-right: 15px;
+    height: fit-content;
+}
+
+.btn-group {
+    margin: 2%;
+    padding: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-size: 1.4rem;
+    margin-right: 0%;
+}
+
+.btn {
+    border: 1.3px solid rgb(189, 189, 189);
+}
+
+
+.bi-caret-up-fill {
+    color: #317be3;
+    background-color: rgba(221, 221, 221, 0.507);
+}
+
+.bi-caret-up-fill:hover {
+    background-color: rgba(221, 221, 221, 0.836);
+}
+
+.bi-x-lg {
+    color: red;
+}
+
+
+.bi-check2 {
+    color: rgb(0, 193, 0);
+}
+
+
+.clickable-row:hover {
+    background-color: rgba(221, 221, 221, 0.954);
+}
+
+.site-container {
+    display: block;
+    width: 50%;
+    text-align: end;
+    align-items: center;
+}
+
+
+.collapsible-header {
+    display: flex;
+    align-items: center;
+}
+
+.header-div {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    font-weight: bold;
+    align-items: center;
+}
+
+p {
+    margin: 0%;
+}
+
+.add {
+
+    font-weight: bold;
+    color: #609df1;
+    margin-right: 25px;
+    border-color:#317be3
+}
+
+.bi-plus-lg {
+    margin-right: 8px;
+    border-radius: 5%;
+    align-items: center;
+
+}
+
+.td-container {
+    display: flex;
+    align-items: start;
+    padding-top: 15px;
+}
+
+.site-container {
+    display: block;
+    align-items: center;
+}
+
+.add-container {
+    padding-right: 25px;
+}
+
+.editableDiv {
+    display: none;
+    align-items: center;
+    justify-content: end;
+}
+
+.site-div {
+    justify-content: end;
+}
+
+.defaultDiv {
+    display: flex;
+    align-items: center;
+}
+
+.addDropdown {
+    flex: 1;
+    margin: 0;
+    padding-right: 15px;
+    height: fit-content;
+}
+
+#modal {
+    display: none;
+}
