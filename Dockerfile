@@ -12,5 +12,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["flask", "run", "--host=0.0.0.0", "--debug"]
+CMD ["sh", "-c", "python3 create_user.py && flask run --host=0.0.0.0 --debug"]
 
