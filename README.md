@@ -22,8 +22,8 @@ Follow the steps below to set up and run the application.
 1. Create gmail app password (your personal gmail account is okay for the purpose of demonstration)
     [Creating gmail app password](https://support.google.com/mail/answer/185833?hl=en)
 2. Create .env file in the project directory with env variables: \
-    MAIL_USERNAME = "your_email"\
-    MAIL_PASSWORD = "your_app_password"
+    `MAIL_USERNAME = "your_email"`\
+    `MAIL_PASSWORD = "your_app_password"`
 
 ### Build the Docker image
 1. Build image
