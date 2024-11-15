@@ -1,0 +1,9 @@
+flask_session/
+.venv/
+.vscode/
+__pycache__/
+data_maker.py
+test.js
+test.html
+manageUsers.js
+manage_users.html

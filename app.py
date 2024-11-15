@@ -20,6 +20,7 @@ import numpy as np
 import plotly.express as px
 from plotly.io import to_json
 
+
 dotenv_path= find_dotenv()
 load_dotenv(dotenv_path)
 secretkey= os.environ.get("SECRET_KEY")
