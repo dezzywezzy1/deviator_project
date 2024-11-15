@@ -19,7 +19,7 @@ Follow the steps below to set up and run the application.
    cd deviator_project
 
 ### Set up gmail account access for 2 Factor Auth
-1. Create gmail app password (your personal gmail account is okay for the purpose of demonstration)
+1. Create gmail app password (your personal gmail account is okay for the purpose of demonstration) \
     [Creating gmail app password](https://support.google.com/mail/answer/185833?hl=en)
 2. Create .env file in the project directory with env variables: \
     `MAIL_USERNAME = "your_email"`\
