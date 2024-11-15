@@ -31,7 +31,7 @@ Follow the steps below to set up and run the application.
 ### Build the Docker image
 1. Build image
     ```bash
-    docker build -t deviator
+    docker build -t deviator .
 
 ### Run the Docker image
 1. Run image
