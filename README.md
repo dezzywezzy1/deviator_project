@@ -24,6 +24,9 @@ Follow the steps below to set up and run the application.
 2. Create .env file in the project directory with env variables: \
     `MAIL_USERNAME = "your_email"`\
     `MAIL_PASSWORD = "your_app_password"`
+### Create SECRET_KEY
+1. Generate a token of your choosing and store it in the .env file: \
+   `SECRET_KEY = "your_secret_key"`
 
 ### Build the Docker image
 1. Build image
