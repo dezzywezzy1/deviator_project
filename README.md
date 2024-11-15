@@ -36,6 +36,7 @@ Follow the steps below to set up and run the application.
 ### Run the Docker image
 1. Run image
     ```bash
-    docker run -p {your_port}:5000 deviator
+    docker run -it -p {your_port}:5000 deviator
+2. The terminal will ask you for a few prompts in order to give you access to the site. Make sure you input an email you have access to. 
 
 this app will now be available at `http://localhost:{your_port}`
