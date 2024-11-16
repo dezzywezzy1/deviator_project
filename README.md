@@ -9,6 +9,7 @@ Follow the steps below to set up and run the application.
 ### Prerequisites
 
 - [Docker](https://www.docker.com/) installed on your system.
+- Gmail Account
 
 ### Clone the Repository
 
